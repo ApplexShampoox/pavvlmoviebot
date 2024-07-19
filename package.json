@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "telegraf": "^4.16.3"
+  },
+  "name": "pavvlmoviebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Pavvl",
+  "license": "ISC",
+  "description": "Telegram bot showing scary movies in KGD cinema",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApplexShampoox/pavvlmoviebot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegrafjs",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/ApplexShampoox/pavvlmoviebot/issues"
+  },
+  "homepage": "https://github.com/ApplexShampoox/pavvlmoviebot#readme"
+}
