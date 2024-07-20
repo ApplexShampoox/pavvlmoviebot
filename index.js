@@ -4,7 +4,7 @@ import axios from "axios";
 import cheerio from 'cheerio';
 
 dotenv.config();
-const bot = new Telegraf(process.env.TOKEN);
+const bot = new Telegraf(process.env.BOT_TOKEN);
 const showMoviesButton = Markup.button.callback('Че там по фильмам сегодня', 'show_movies');
 
 bot.command('start', async (ctx) => {

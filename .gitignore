@@ -5,9 +5,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # Logs
-logs
+logs/
 *.log
-pids
+pids/
 *.pid
 *.seed
 *.pid.lock
@@ -15,9 +15,9 @@ pids
 # Environment variables
 .env
 
-# Production
-build/
-dist/
+# Dependency directories
+node_modules/
+jspm_packages/
 
 # Optional npm cache directory
 .npm
@@ -28,12 +28,38 @@ dist/
 # Optional REPL history
 .node_repl_history
 
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.local
+.env.*.local
+
+# pm2 specific logs
+pm2.log
+.pm2/
+
 # MacOS specific files
 .DS_Store
 
-# VSCode specific files
+# VScode specific settings
 .vscode/
 
-# PM2 specific files
-.pids
-logs/
+# Ignore any build artifacts and dist directories
+build/
+dist/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Ignore any temporary files or directories created by OS or text editors
+*.swp
+*~
+.cache
+.project
+.idea
+*.sublime-project
+*.sublime-workspace
